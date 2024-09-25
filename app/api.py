@@ -8,7 +8,7 @@ import io
 import numpy as np
 from fastapi.responses import JSONResponse
 from typing import List
-from utils import read_pdf, split_document, classify_and_cluster
+from src.topic_modeling import read_pdf, split_document, classify_and_cluster
 import base64
 
 app = FastAPI()
